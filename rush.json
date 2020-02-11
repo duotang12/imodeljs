@@ -19,6 +19,11 @@
   },
   "projects": [
     {
+      "packageName": "ninezone-sample-app",
+      "projectFolder": "app/ninezone-sample-app",
+      "reviewCategory": "internal"
+    },
+    {
       "packageName": "@bentley/build-tools",
       "projectFolder": "tools/build",
       "reviewCategory": "tools",

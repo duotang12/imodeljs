@@ -200,7 +200,7 @@
     },
     {
       "name": "bunyan",
-      "allowedCategories": [ "backend", "common" ]
+      "allowedCategories": [ "backend", "common", "internal" ]
     },
     {
       "name": "bunyan-seq",
@@ -335,6 +335,14 @@
       "allowedCategories": [ "internal" ]
     },
     {
+      "name": "electron-devtools-installer",
+      "allowedCategories": [ "internal" ]
+    },
+    {
+      "name": "env-cmd",
+      "allowedCategories": [ "internal" ]
+    },
+    {
       "name": "enzyme",
       "allowedCategories": [ "frontend", "tools" ]
     },
@@ -384,7 +392,7 @@
     },
     {
       "name": "file-loader",
-      "allowedCategories": [ "tools" ]
+      "allowedCategories": [ "internal", "tools" ]
     },
     {
       "name": "file-saver",
@@ -456,7 +464,7 @@
     },
     {
       "name": "inspire-tree",
-      "allowedCategories": [ "frontend" ]
+      "allowedCategories": [ "frontend", "internal" ]
     },
     {
       "name": "istanbul-instrumenter-loader",
@@ -504,7 +512,7 @@
     },
     {
       "name": "lodash",
-      "allowedCategories": [ "frontend", "tools" ]
+      "allowedCategories": [ "frontend", "internal", "tools" ]
     },
     {
       "name": "lolex",
@@ -551,6 +559,10 @@
       "allowedCategories": [ "backend" ]
     },
     {
+      "name": "ncp",
+      "allowedCategories": [ "internal" ]
+    },
+    {
       "name": "nock",
       "allowedCategories": [ "backend", "common" ]
     },
@@ -564,7 +576,7 @@
     },
     {
       "name": "nodemon",
-      "allowedCategories": [ "tools" ]
+      "allowedCategories": [ "internal", "tools" ]
     },
     {
       "name": "npm-run-all",
@@ -668,11 +680,11 @@
     },
     {
       "name": "react-dnd",
-      "allowedCategories": [ "frontend" ]
+      "allowedCategories": [ "frontend", "internal" ]
     },
     {
       "name": "react-dnd-html5-backend",
-      "allowedCategories": [ "frontend" ]
+      "allowedCategories": [ "frontend", "internal" ]
     },
     {
       "name": "react-dnd-test-backend",
@@ -696,7 +708,7 @@
     },
     {
       "name": "react-resize-detector",
-      "allowedCategories": [ "frontend" ]
+      "allowedCategories": [ "frontend", "internal" ]
     },
     {
       "name": "react-router-dom",
@@ -708,7 +720,7 @@
     },
     {
       "name": "react-test-renderer",
-      "allowedCategories": [ "tools" ]
+      "allowedCategories": [ "internal", "tools" ]
     },
     {
       "name": "react-virtualized",
@@ -791,8 +803,16 @@
       "allowedCategories": [ "internal" ]
     },
     {
+      "name": "spectron",
+      "allowedCategories": [ "internal" ]
+    },
+    {
       "name": "ssri",
       "allowedCategories": [ "tools" ]
+    },
+    {
+      "name": "strip-json-comments-cli",
+      "allowedCategories": [ "internal" ]
     },
     {
       "name": "style-loader",

@@ -6,13 +6,13 @@
  * @module Core
  */
 
-import { I18N } from "@bentley/imodeljs-i18n";
-import { IModelApp } from "@bentley/imodeljs-frontend";
-import { PresentationError, PresentationStatus } from "@bentley/presentation-common";
-import { PresentationManager, PresentationManagerProps } from "./PresentationManager";
-import { SelectionManager } from "./selection/SelectionManager";
-import { SelectionScopesManager } from "./selection/SelectionScopesManager";
-import { FavoritePropertiesManager } from "./favorite-properties/FavoritePropertiesManager";
+import {I18N} from '@bentley/imodeljs-i18n';
+import {IModelApp} from '@bentley/imodeljs-frontend';
+import {PresentationError, PresentationStatus} from '@bentley/presentation-common';
+import {PresentationManager, PresentationManagerProps} from './PresentationManager';
+import {SelectionManager} from './selection/SelectionManager';
+import {SelectionScopesManager} from './selection/SelectionScopesManager';
+import {FavoritePropertiesManager} from './favorite-properties/FavoritePropertiesManager';
 
 let presentationManager: PresentationManager | undefined;
 let selectionManager: SelectionManager | undefined;
@@ -50,7 +50,7 @@ export class Presentation {
   public static initialize(props?: PresentationManagerProps): void {
     if (!IModelApp.initialized) {
       throw new PresentationError(PresentationStatus.NotInitialized,
-        "IModelApp.startup must be called before calling Presentation.initialize");
+        'IModelApp.startup must be called before calling Presentation.initialize');
     }
     if (!i18n) {
       i18n = IModelApp.i18n;
